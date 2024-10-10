@@ -1,0 +1,260 @@
+body {
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(0, 0, 34);
+    font-size: 0.8rem;
+}
+
+.card {
+    max-width: 1000px;
+    margin: auto;
+}
+
+#logo { 
+    font-family: 'Dancing Script';
+    font-weight: bold;
+    font-size: 1.6rem;
+}
+
+.card-body {
+    padding: 0 5rem 5rem 5rem;
+
+}
+
+@media(max-width:768px) {
+    .card-body {
+        padding: 0 1rem 1rem 1rem;
+        
+    }
+}
+
+#payment {
+    margin: 0;
+    color: blue;
+}
+
+.icons {
+    margin-left: auto;
+}
+
+form span {
+    color: rgb(179, 179, 179);
+}
+
+form {
+    padding: 2vh 0;
+}
+
+input {
+    border: 1px solid rgba(0, 0, 0, 0.137);
+    padding: 1vh;
+    margin-bottom: 4vh;
+    outline: none;
+    width: 100%;
+    background-color: rgb(247, 247, 247);
+}
+
+input:focus::-webkit-input-placeholder {
+    color: transparent;
+}
+
+.header {
+    font-size: 1.5rem;
+}
+
+.left {
+    background-color: #ffffff;
+    padding: 2vh;
+}
+
+@media (max-width: 768px) {
+
+    .left {
+        padding: 12vh;
+    }
+}
+
+.left img {
+    width: 2rem;
+}
+
+.left .col-4 {
+    padding-left: 0;
+}
+
+.right .item {
+    padding: 0.3rem 0;
+}
+
+.right {
+    background-color: #ffffff;
+    padding: 2vh;
+}
+
+.col-8 {
+    padding: 0 1vh;
+}
+
+.lower {
+    line-height: 2;
+}
+
+
+input[type=checkbox] {
+    width: unset;
+    margin-bottom: unset;
+}
+
+#cvv {
+    background-image: linear-gradient(to left, rgba(255, 255, 255, 0.575), rgba(255, 255, 255, 0.541)), url("https://img.icons8.com/material-outlined/24/000000/help.png");
+    background-repeat: no-repeat;
+    background-position-x: 95%;
+    background-position-y: center;
+}
+
+
+.paydetail_section .card-body .row .border .payform .order {
+    margin-top: 30px;
+    padding: 10px 40px;
+    border-radius: 45px;
+    background-color: #000;
+    color: #fff;
+}
+
+.pay_section .row .pay-detail .payform .pay-btn a {
+    margin-top: 30px;
+    padding: 10px 40px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 45px;
+}
+
+
+body {
+    letter-spacing: 0.8px;
+    /* background: linear-gradient(0deg, #fff, 50%, #74a0ff); */
+    background-repeat: no-repeat;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+} 
+
+#progressbar {
+    margin-bottom: 30px;
+    overflow: hidden;
+    color: #455A64;
+    padding-left: 0px;
+    margin-top: 30px
+}
+
+#progressbar li {
+    list-style-type: none;
+    font-size: 13px;
+    width: 33.33%;
+    float: left;
+    position: relative;
+    font-weight: 400;
+    color: #455A64 !important;
+
+}
+
+#progressbar #step1:before {
+    content: "1";
+    color: #fff;
+    width: 29px;
+    margin-left: 15px !important;
+    padding-left: 11px !important;
+}
+
+
+#progressbar #step2:before {
+    content: "2";
+    color: #fff;
+    width: 29px;
+
+}
+
+#progressbar #step3:before {
+    content: "3";
+    color: #fff;
+    width: 29px;
+    margin-right: 15px !important;
+    padding-right: 11px !important;
+}
+
+#progressbar li:before {
+    line-height: 29px;
+    display: block;
+    font-size: 12px;
+    background: #455A64;
+    border-radius: 50%;
+    margin: auto;
+}
+
+#progressbar li:after {
+    content: '';
+    width: 121%;
+    height: 2px;
+    background: #455A64;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 15px;
+    z-index: -1;
+}
+
+#progressbar li:nth-child(2):after {
+    left: 50%;
+}
+
+#progressbar li:nth-child(1):after {
+    left: 25%;
+    width: 121%;
+}
+
+#progressbar li:nth-child(3):after {
+    left: 25% !important;
+    width: 50% !important;
+}
+
+#progressbar li.active:before,
+#progressbar li.active:after {
+    background: #4bb8a9;
+}
+
+.card {
+    /* background-color: #fff; */
+    /* box-shadow: 2px 4px 15px 0px rgb(0, 108, 170); */
+    z-index: 0;
+    border: none !important;
+}
+
+small {
+    font-size: 12px !important;
+}
+
+.a {
+    justify-content: space-between !important;
+}
+
+.border-line {
+    border-right: 1px solid rgb(226, 206, 226)
+}
+
+.card-footer img {
+    opacity: 0.3;
+}
+
+.card-footer h5 {
+    font-size: 1.1em;
+    color: #8C9EFF;
+    cursor: pointer;
+}
+
+@media (min-width: 768px){
+    .payment-div{
+        gap: 10px;
+    }
+}
